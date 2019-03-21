@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		78705FE12242A4F4001AE501 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78705FE02242A4F4001AE501 /* AppDelegate.m */; };
-		78705FE42242A4F4001AE501 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78705FE32242A4F4001AE501 /* ViewController.m */; };
-		78705FE72242A4F4001AE501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78705FE52242A4F4001AE501 /* Main.storyboard */; };
+		78705FE42242A4F4001AE501 /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78705FE32242A4F4001AE501 /* SBViewController.m */; };
 		78705FE92242A4F5001AE501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78705FE82242A4F5001AE501 /* Assets.xcassets */; };
 		78705FEC2242A4F5001AE501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78705FEA2242A4F5001AE501 /* LaunchScreen.storyboard */; };
 		78705FEF2242A4F5001AE501 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78705FEE2242A4F5001AE501 /* main.m */; };
+		78705FF72242A581001AE501 /* SBCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 78705FF62242A581001AE501 /* SBCountry.m */; };
+		787060002242AD13001AE501 /* SBLeftAlignCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78705FFF2242AD13001AE501 /* SBLeftAlignCell.m */; };
+		787060032242AD3A001AE501 /* SBRightAlignCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 787060022242AD3A001AE501 /* SBRightAlignCell.m */; };
+		7870600B224325D6001AE501 /* SBCountryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7870600A224325D6001AE501 /* SBCountryList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		78705FDC2242A4F4001AE501 /* SBTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78705FDF2242A4F4001AE501 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78705FE02242A4F4001AE501 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		78705FE22242A4F4001AE501 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		78705FE32242A4F4001AE501 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		78705FE62242A4F4001AE501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78705FE22242A4F4001AE501 /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
+		78705FE32242A4F4001AE501 /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
 		78705FE82242A4F5001AE501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78705FEB2242A4F5001AE501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78705FED2242A4F5001AE501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78705FEE2242A4F5001AE501 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78705FF52242A581001AE501 /* SBCountry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBCountry.h; sourceTree = "<group>"; };
+		78705FF62242A581001AE501 /* SBCountry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBCountry.m; sourceTree = "<group>"; };
+		78705FFE2242AD13001AE501 /* SBLeftAlignCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBLeftAlignCell.h; sourceTree = "<group>"; };
+		78705FFF2242AD13001AE501 /* SBLeftAlignCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBLeftAlignCell.m; sourceTree = "<group>"; };
+		787060012242AD3A001AE501 /* SBRightAlignCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBRightAlignCell.h; sourceTree = "<group>"; };
+		787060022242AD3A001AE501 /* SBRightAlignCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBRightAlignCell.m; sourceTree = "<group>"; };
+		78706009224325D6001AE501 /* SBCountryList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBCountryList.h; sourceTree = "<group>"; };
+		7870600A224325D6001AE501 /* SBCountryList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBCountryList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,8 @@
 		78705FD32242A4F3001AE501 = {
 			isa = PBXGroup;
 			children = (
+				787060082242FDDA001AE501 /* SBTableViewData */,
+				787060042242F65E001AE501 /* SBCells */,
 				78705FDE2242A4F4001AE501 /* SBTableView */,
 				78705FDD2242A4F4001AE501 /* Products */,
 			);
@@ -60,15 +72,36 @@
 			children = (
 				78705FDF2242A4F4001AE501 /* AppDelegate.h */,
 				78705FE02242A4F4001AE501 /* AppDelegate.m */,
-				78705FE22242A4F4001AE501 /* ViewController.h */,
-				78705FE32242A4F4001AE501 /* ViewController.m */,
-				78705FE52242A4F4001AE501 /* Main.storyboard */,
-				78705FE82242A4F5001AE501 /* Assets.xcassets */,
+				78705FE22242A4F4001AE501 /* SBViewController.h */,
+				78705FE32242A4F4001AE501 /* SBViewController.m */,
 				78705FEA2242A4F5001AE501 /* LaunchScreen.storyboard */,
 				78705FED2242A4F5001AE501 /* Info.plist */,
 				78705FEE2242A4F5001AE501 /* main.m */,
+				78705FE82242A4F5001AE501 /* Assets.xcassets */,
 			);
 			path = SBTableView;
+			sourceTree = "<group>";
+		};
+		787060042242F65E001AE501 /* SBCells */ = {
+			isa = PBXGroup;
+			children = (
+				78705FFE2242AD13001AE501 /* SBLeftAlignCell.h */,
+				78705FFF2242AD13001AE501 /* SBLeftAlignCell.m */,
+				787060012242AD3A001AE501 /* SBRightAlignCell.h */,
+				787060022242AD3A001AE501 /* SBRightAlignCell.m */,
+			);
+			path = SBCells;
+			sourceTree = "<group>";
+		};
+		787060082242FDDA001AE501 /* SBTableViewData */ = {
+			isa = PBXGroup;
+			children = (
+				78705FF52242A581001AE501 /* SBCountry.h */,
+				78705FF62242A581001AE501 /* SBCountry.m */,
+				78706009224325D6001AE501 /* SBCountryList.h */,
+				7870600A224325D6001AE501 /* SBCountryList.m */,
+			);
+			path = SBTableViewData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +163,6 @@
 			files = (
 				78705FEC2242A4F5001AE501 /* LaunchScreen.storyboard in Resources */,
 				78705FE92242A4F5001AE501 /* Assets.xcassets in Resources */,
-				78705FE72242A4F4001AE501 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +173,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78705FE42242A4F4001AE501 /* ViewController.m in Sources */,
+				78705FE42242A4F4001AE501 /* SBViewController.m in Sources */,
+				787060032242AD3A001AE501 /* SBRightAlignCell.m in Sources */,
 				78705FEF2242A4F5001AE501 /* main.m in Sources */,
 				78705FE12242A4F4001AE501 /* AppDelegate.m in Sources */,
+				787060002242AD13001AE501 /* SBLeftAlignCell.m in Sources */,
+				7870600B224325D6001AE501 /* SBCountryList.m in Sources */,
+				78705FF72242A581001AE501 /* SBCountry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		78705FE52242A4F4001AE501 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78705FE62242A4F4001AE501 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		78705FEA2242A4F5001AE501 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
