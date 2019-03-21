@@ -15,7 +15,6 @@
 @interface SBViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, strong) NSArray<NSString *> *animals;
 @property (nonatomic, strong) NSMutableArray *countriesList;
 
 @end
