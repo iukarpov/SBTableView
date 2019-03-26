@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78045ECE224A363800F4C920 /* SBAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 78045ECD224A363800F4C920 /* SBAnimations.m */; };
 		78705FE12242A4F4001AE501 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78705FE02242A4F4001AE501 /* AppDelegate.m */; };
 		78705FE42242A4F4001AE501 /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78705FE32242A4F4001AE501 /* SBViewController.m */; };
 		78705FE92242A4F5001AE501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78705FE82242A4F5001AE501 /* Assets.xcassets */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78045ECC224A363800F4C920 /* SBAnimations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAnimations.h; sourceTree = "<group>"; };
+		78045ECD224A363800F4C920 /* SBAnimations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAnimations.m; sourceTree = "<group>"; };
 		78705FDC2242A4F4001AE501 /* SBTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78705FDF2242A4F4001AE501 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78705FE02242A4F4001AE501 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 				78705FED2242A4F5001AE501 /* Info.plist */,
 				78705FEE2242A4F5001AE501 /* main.m */,
 				78705FE82242A4F5001AE501 /* Assets.xcassets */,
+				78045ECC224A363800F4C920 /* SBAnimations.h */,
+				78045ECD224A363800F4C920 /* SBAnimations.m */,
 			);
 			path = SBTableView;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78705FE42242A4F4001AE501 /* SBViewController.m in Sources */,
+				78045ECE224A363800F4C920 /* SBAnimations.m in Sources */,
 				787060032242AD3A001AE501 /* SBRightAlignCell.m in Sources */,
 				78705FEF2242A4F5001AE501 /* main.m in Sources */,
 				78705FE12242A4F4001AE501 /* AppDelegate.m in Sources */,

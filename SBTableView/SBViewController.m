@@ -11,6 +11,7 @@
 #import "SBLeftAlignCell.h"
 #import "SBCountry.h"
 #import "SBCountryList.h"
+#import "SBAnimations.h"
 
 @interface SBViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -65,8 +66,15 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [[SBAnimations new] animateCellAppearance:cell];
+}
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [[SBAnimations new] shakeCell:tableView atIndexPath:indexPath];
+    
     NSString *title = [self.countriesList[indexPath.row] countryName];
     
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:nil preferredStyle:UIAlertControllerStyleAlert];
@@ -78,3 +86,4 @@
     [self presentViewController:alertController animated:YES completion:nil];
 }
 @end
+
